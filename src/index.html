@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vascul Andrei</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    </head>
+    <body class="flex">
+        <main class="flex" style="margin-bottom: 5.6rem">
+            <h1 class="title">Base Convertor</h1>
+            <section>
+                <div>
+                    <label for="input">Enter&nbsp;number:</label>
+                    <input minlength="1" type="text" id="convert-input" placeholder=""/>
+                </div>
+                <div style="width: 4.4rem">
+                    <label for="inputBase">From</label>
+                    <select name="inputBase" id="inputBase">
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="16">16</option>
+                    </select>
+                </div>
+            </section>       
+            
+            <section>
+                <div>
+                    <label for="output">Result: </label>
+                    <input minlength="1" type="text" id="convert-output" placeholder=""/>
+                </div>
+                <div style="width: 4.4rem">
+                    <label for="outputBase">To</label>
+                    <select name="outputBase" id="outputBase">
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10" selected>10</option>
+                        <option value="16">16</option>
+                    </select>
+                </div>
+            </section>  
+        </main>
+            
+        <main class="flex">
+            <h1 class="title">Base Calculator</h1>
+            <section>
+                <div>
+                    <label for="number1">First&nbsp;number:</label>
+                    <input type="text" id="number1" placeholder=""/>
+                </div>
+                <div style="width: 4.4rem">
+                    <label for="number1">Base</label>
+                    <select name="number1" id="calculator-base">
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="16">16</option>
+                    </select>
+                </div>
+            </section>       
+            
+            <section>
+                <div>
+                    <label for="number2">Second&nbsp;number:</label>
+                    <input minlength="1" type="text" id="number2" placeholder=""/>
+                </div>
+                <div style="width: 5rem">
+                    <label for="sign">Sign</label>
+                    <select name="sign" id="sign">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">*</option>
+                        <option value="/">/</option>
+                    </select>
+                </div>
+            </section> 
+            
+            <section>
+                <div>
+                    <label for="result">Result: </label>
+                    <input type="text" id="result" placeholder=""/>
+                </div>
+            </section>  
+
+        </main>
+        <script src="./main.js" type="module"></script>
+    </body>
+</html>
