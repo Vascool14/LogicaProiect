@@ -1,24 +1,13 @@
-# The application must implement algorithms for:  
-- arithmetic operations for positive integers: addition, subtraction, multiplication and division by one digit, in a base p ∈ {2,3,...,9,10,16} 
-- conversions of natural numbers between two bases p,q ∈ {2,3,...,9,10,16} using the substitution method or successive divisions and rapid conversions between two bases p,q ∈ {2, 4, 8, 16}. 
-and must have a menu such that all operations and conversion methods to be verified separately. 
-The executable form, the code of the application and the documentation will be submitted in the corresponding assignment on Teams. The documentation will follow the same structure as the Programming Fundament’s documentations, and it must contain at least: the problem statement for the implemented application, the used algorithms in pseudo-code, implementation considerations and test data.  
+# Vascul Andrei - 917
+## I've decided to use JS for this project due to my familiarity with it (I hope it is not a problem), and during the development process I've found some time to also give it a simple UI.
 
-# Grade: 
-### 70% : the application (the authors name will be found in code and will be visible at run time too) 
-- >> 1p - algorithm for the method of successive divisions
-- >> 1p – algorithm for conversion using 10 as an intermediate base 
-- >> 2p - rapid conversions (executable form) between two bases p,q ∈ {2, 4, 8, 16}. 
-- 1p addition of two numbers in a base 
-- 1p subtraction of two numbers in a base 
-- 1p multiplication of a number by a digit in a base 
-- 1p division of a number by a digit in a base 
-- 1p code quality (indentation, use of comments, suggestive variables names) 
-### 20%: documentation  
-- 1p problem statement 
-- 1p sub-algorithm’s diagram 
-- 1p used data type specification 
-- 3p specification and pseudo-code for the important algorithms used (input, output, preconditions, post-conditions -1p; pseudo-code 2p) 
-- 3p at least a set of test data for the complete application, more data sets where is needed 
-- 1p documentation clearness (structured, well written, ...) 
-### 10%: by default 
+This code may look like spagetti, but in JS it is encouraged to write more readable code instead of focusing on memory efficiency, due to its garbage collector. Although I use lots of constant variables, I don't use them to save memory, but to make the code more readable and easier to maintain / refactor.
+```javascript
+const inputArray = input.split(' '); // immutability is encouraged in JS, even more so in external libraries like React.
+```
+I wrote this project originally in Typescript for its type safety, but I've decided to rewrite it in JS for you to be able to run it without compiling it.
+
+# How to review the project?
+Although the source code is avaliable in the 'src' directory for you to see, I highly recommend downloading the 
+**[compressed.html](https://github.com/Vascool14/LogicaProiect/blob/main/for-teacher/compressed.html)**
+file (6.45kb) and run in within your browser, as this is the easiest way for you to see the project in action, I didn't want you to have to install any dependencies and compile the code as I know that you have a lot of projects to review.
