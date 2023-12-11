@@ -10,4 +10,4 @@ I wrote this project originally in Typescript for its type safety, but I've deci
 # How to review the project?
 Although the source code is avaliable in the 'src' directory for you to see, I highly recommend downloading the 
 **[compressed.html](https://github.com/Vascool14/LogicaProiect/blob/main/for-teacher/compressed.html)**
-file (6.45kb) and run in within your browser, as this is the easiest way for you to see the project in action, I didn't want you to have to install any dependencies and compile the code as I know that you have a lot of projects to review.
+file (6.45kb) and run it within your browser, as this is the easiest way for you to see the project in action, I didn't want you to have to install any dependencies and compile the code as I know that you have a lot of projects to review.
